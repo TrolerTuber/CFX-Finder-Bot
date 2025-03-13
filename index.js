@@ -73,7 +73,7 @@ client.on(Events.InteractionCreate, async (interaction) => {
 
                     const embed = new EmbedBuilder()
                         .setColor('#0099ff')
-                        .setTitle(`Información del servidor`)
+                        .setTitle(`Server info:`)
                         .addFields(
                             { name: 'Server IP', value: connectEndPoints, inline: true },
                             { name: 'Connected players', value: `${players}`, inline: true }
